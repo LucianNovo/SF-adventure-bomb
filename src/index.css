@@ -1,4 +1,45 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Shrikhand|Fanwood+Text:800');
+
+body,html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color:#f1eee7;
+}
+
+.app { /* thing to center */
+  margin: auto;
+  padding: 0px 20px 0px 20px;
+}
+
+.funstuff{
+  font-family: 'Shrikhand', cursive;
+  font-size: 2em;
+  max-width: 550px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #fc501e;
+}
+.maplink{
+  font-family: 'Shrikhand', cursive;
+  text-decoration: none;
+}
+
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+a{
+  color: black;
+}
+
+/* body {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -11,4 +52,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
